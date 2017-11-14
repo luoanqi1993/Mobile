@@ -11,38 +11,23 @@ html{
     height: 100%;
     body{
         @extend html;
+        font-family:Helvetica,Microsoft YaHei;
         margin: 0;
         header{
             height: 128/$sc+rem;
             background: rgb(20,138,210);
-            font-size: 12/$sc+rem;
+            font-size: 18/$sc+rem;
             color: white;
             text-align: center;
-            .top{
-                height: 40/$sc+rem;
-                i{
+            .top{               
+                img{
+                    width: 750/$sc+rem;
                     display: inline-block;
-                    line-height: 30/$sc+rem;
-                    font-style: normal;
-                    margin-right: 40/$sc+rem;
-                }
-                .left{
-                    float: left;
-                    margin: 6/$sc+rem 0 0 4/$sc+rem;
-                    img{
-                        width: 196/$sc+rem;
-                    }
-                }
-                .right{
-                    float: right;
-                    margin: 4/$sc+rem 6/$sc+rem 0 0;
-                    img{
-                        width: 138/$sc+rem;
-                    }
+                    margin-top: 6/$sc+rem;
                 }
             }
             .cp{
-                margin-top: 20/$sc+rem;
+                margin-top: 25/$sc+rem;
                 img{
                     &:nth-child(1){
                         width: 45/$sc+rem;
